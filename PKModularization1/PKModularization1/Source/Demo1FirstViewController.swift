@@ -16,6 +16,14 @@ public class Demo1FirstViewController: UIViewController {
     override public func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        let label = UILabel.init()
+        label.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
+        label.center = self.view.center
+        label.text = "this a text"
+        label.font = UIFont.systemFont(ofSize: 30)
+        self.view.addSubview(label)
+        
     }
 
     

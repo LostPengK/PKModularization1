@@ -11,9 +11,9 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+public class Demo1SecondViewController: UIViewController {
 
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }

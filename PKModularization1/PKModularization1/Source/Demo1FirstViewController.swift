@@ -11,13 +11,13 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+public class Demo1FirstViewController: UIViewController {
 
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    
 }
 
